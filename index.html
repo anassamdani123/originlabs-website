@@ -7,22 +7,42 @@
   <style>
     body {
       margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    /* top bar */
+    .header {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    /* center message */
+    .center {
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
       text-align: center;
     }
+
     h1 {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: normal;
     }
   </style>
 </head>
+
 <body>
-  <h1>We are updating our website. We will be back shortly.</h1>
+  <div class="header">OriginLabs</div>
+
+  <div class="center">
+    <h1>We are updating our website. We will be back shortly.</h1>
+  </div>
 </body>
 </html>
